@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FractalsApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_to_tutorial">Go to the tutorial</string>
+    <string name="find_info_online">Find more info online</string>
+    <string name="take_the_quiz">Take the quiz now</string>
+    <string name="tutorial">A Fractal is a type of mathematical shape that are infinitely complex. In essence, a Fractal is a pattern that repeats forever, and every part of the Fractal, regardless of how zoomed in, or zoomed out you are, it looks very similar to the whole image.
+
+Fractals surround us in so many different aspects of life. Since the term is becoming more widely used we wanted to create the definitive guide to understanding what Fractals are, why Fractals are important, and how Fractals impact our lives. This Ultimate Guide to Fractals will address common questions like: What is a Fractal? How do fractals work? What are Fractals used for? and much more.
+
+The major different types of categories of Fractals include:
+- Fractals in Nature
+- Fractals in Computers
+Fractal Shapes
+Fractals in Math
+Fractals in 3D modeling
+Fractal in Information and Data Management
+Fractals in Computer System Architecture
+Fractals in other areas of Technology
+Fractals in Physical Structures
+Fractals and Human Psychology
+Fractals in Time
+Fractals in Sound
+Fractals in Art
+Fractals in Law
+</string>
+</resources>

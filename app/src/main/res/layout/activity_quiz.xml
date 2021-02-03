@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ TIME"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="34dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is this the definition of a fractal? Fractal is a pattern that repeats forever, and every part of the Fractal, regardless of how zoomed in, or zoomed out you are, it looks very similar to the whole image"
+            android:textAlignment="center"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton android:id="@+id/definitionYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yes"/>
+            <RadioButton android:id="@+id/definitionNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Can fractals be found in nature?"
+            android:textAlignment="center"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton android:id="@+id/natureYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yes"/>
+            <RadioButton android:id="@+id/natureNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Was the first computer generated image of the Mandelbrot set generated in 1980 by an IBM supercomputer?"
+            android:textAlignment="center"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton android:id="@+id/computerYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yes"/>
+            <RadioButton android:id="@+id/computerNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/submitQuestions"
+                android:text="Submit"
+                android:onClick="onSubmitClicked"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/shareOnFacebook"
+                android:text="Share On Facebook"
+                android:onClick="onShareClicked"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
